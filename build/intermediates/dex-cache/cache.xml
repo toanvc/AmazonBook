@@ -3,84 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_3b267261cad5bcae01e771171302f232586898fc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.0.1_b83642ce3b2df95b9c7e982e80cc8d179f3a655e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/gson-2.6.1_854c7a64a782482f95dfa7acee849ef7af4d4694.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.0.0_af5c9f450f28bccccc89967f1fd8b64d34207e00.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_60ef316c8b6c44472bca86f765e4c36ff571cec5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="9b4dc743b4d9763f7d6956393575545e7893233d">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_20d53e35a2b82fea39b79d741e7cab2a09fc6469.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/Mr_Invisible/Work/adt-bundle-mac-x86_64-20140702-2/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
         <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_e8c1fe91a813edfca9a748ca3e3d4df0480c35b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/Work/adt-bundle-mac-x86_64-20140702-2/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha6/constraint-layout-solver-1.0.0-alpha6.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="539cfaee6c35087cdebad7e3a3bc0f52d1261d93">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha6_e09328e2b7d90975913f41f5b82d5d7a9e38024b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/library-2.4.0_9ebc91705fc5e012b3fe50997e1237588d4e7d54.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,42 +21,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_d1cb1fd69f8522fa5575071d3e354d8e8f559232.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.0.1_e3b267e3c0f72911b7e04d7995c386445edc461e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/retrofit-2.0.2_52b9f1321d65880dedc0ad14485990210e0a9100.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="3361480c20b8807f489e89c0ae307984772a4801">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/instant-run_01042e711ffe05194979e86262db005f368b6eb9.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/b494968f6050d494de55dc3ce005e59c7eb40012/rxjava-1.1.1.jar"
         jumboMode="true"
         optimize="true"
@@ -138,12 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha6/jars/classes.jar"
+        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="683e0c40e56227acb71bcd29fee25fe417ae734e">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha6_3310119350713ae485049288c5df5c1fb0547594.jar" />
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/gson-2.7_dcec418ca4c31be605c66920a40f39304c1eea3c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -153,15 +45,6 @@
         revision="24.0.0"
         sha1="bf61256d9868ea053e24d77669c55c80db375c15">
         <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0_e867841a36967467a5400a07a84b28d029215364.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_70fec4ab9eeae2a1f009f565024a16ced7ddcad5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -180,6 +63,15 @@
         revision="24.0.0"
         sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
         <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.0.1_67e37a32241c9bbb70d3a39110bb02288fbee58d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/okio-1.8.0_a13039229f32b5529c0f535b138341ab42c027cf.jar" />
     </item>
     <item
         is-multidex="false"
@@ -219,21 +111,111 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/okio-1.6.0_1384dc375a6733fe6131ed6c8ba08dacb1ca48ff.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
         <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_c65be656d1886d94b1e394f2dd8fbe8bef4ad429.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.0.1_b83642ce3b2df95b9c7e982e80cc8d179f3a655e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.0.0_af5c9f450f28bccccc89967f1fd8b64d34207e00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_60ef316c8b6c44472bca86f765e4c36ff571cec5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9b4dc743b4d9763f7d6956393575545e7893233d">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_20d53e35a2b82fea39b79d741e7cab2a09fc6469.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_24ac94761a4ff6ee3739f50d3b797da5bb6cd740.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/library-2.4.0_9ebc91705fc5e012b3fe50997e1237588d4e7d54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.0.1_e3b267e3c0f72911b7e04d7995c386445edc461e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3361480c20b8807f489e89c0ae307984772a4801">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/instant-run_01042e711ffe05194979e86262db005f368b6eb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_70fec4ab9eeae2a1f009f565024a16ced7ddcad5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_b17d7e257afa7d0060dc685f537e0f30a5088f5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Mr_Invisible/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/Mr_Invisible/Documents/MUM/AndroidProgramming/Mobile-programming-Project/AmazonBook2/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_30253d53eac40afd62a5f783d6ff340e57d45af7.jar" />
     </item>
 
 </items>
