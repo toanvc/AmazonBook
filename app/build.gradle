@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion 24
@@ -18,6 +19,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+greendao {
+    schemaVersion 1
 }
 
 dependencies {
@@ -38,5 +42,7 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
 
     compile 'com.melnykov:floatingactionbutton:1.3.0'
+
+    compile 'org.greenrobot:greendao:3.1.0'
 
 }

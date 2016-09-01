@@ -24,17 +24,24 @@ import fungalaxy.amazonbook.widget.AspectImageView;
  */
 public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ItemViewHolder> {
 
-    private Book[] mItems;
+    private ArrayList<Book> mItems;
     private List<Integer> mHeights = new ArrayList<>();
     private Context mContext;
 
-    public BookAdapter(Context context, Book[] books) {
+    public BookAdapter(Context context, ArrayList<Book> books) {
         this.mContext = context;
         mItems = books;
     }
 
-    public void setBookList(Book[] books) {
+    public void setBookList(ArrayList<Book> books) {
         this.mItems = books;
+    }
+
+    public ArrayList<Book> getBookList() {
+        if (mItems == null) {
+            return new ArrayList<>();
+        }
+        return mItems;
     }
 
     @Override
@@ -47,8 +54,8 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ItemViewHolder
 
     @Override
     public void onBindViewHolder(ItemViewHolder holder, int position) {
-        Book book = mItems[position];
-        holder.title.setText(book.getTitle());
+        Book book = mItems.get(position);
+        holder.title.setText("[" + (position + 1) + "]" + book.getTitle());
         if (book.getAuthor() == null) {
             holder.author.setVisibility(View.GONE);
         } else {
@@ -63,7 +70,7 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.ItemViewHolder
 
     @Override
     public int getItemCount() {
-        return mItems.length;
+        return mItems.size();
     }
 
 

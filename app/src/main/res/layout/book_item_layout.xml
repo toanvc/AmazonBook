@@ -19,14 +19,14 @@
         <fungalaxy.amazonbook.widget.AspectImageView
             android:id="@+id/thumbnail"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:src="@drawable/ic_book_black_48dp" />
 
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
             android:layout_weight="3"
             android:paddingLeft="@dimen/activity_horizontal_margin">
 
@@ -41,9 +41,10 @@
             <TextView
                 android:id="@+id/author"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/title"
                 android:ellipsize="end"
+                android:gravity="bottom"
                 android:lines="1"
                 android:textSize="@dimen/txt_size_small" />
         </RelativeLayout>
