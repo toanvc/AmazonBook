@@ -10,7 +10,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -24,7 +23,6 @@ import com.melnykov.fab.FloatingActionButton;
 import org.greenrobot.greendao.rx.RxQuery;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import butterknife.BindView;
@@ -137,7 +135,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getData() {
-        ApiHelper.getInstance().getBookList().subscribeOn(Schedulers.io())
+        ApiHelper.getInstance().getBookList()
+                .subscribeOn(Schedulers.io())
+                .doOnNext(new Action1<Response<Book[]>>() {
+                    @Override
+                    public void call(Response<Book[]> response) {
+                        mBookArr = response.body();
+                        addBooksToDb(mBookArr);
+                    }
+                })
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<Response<Book[]>>() {
                     @Override
@@ -152,8 +158,6 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onNext(Response<Book[]> response) {
-                        mBookArr = response.body();
-                        addBooksToDb(mBookArr);
                         onSuccess();
                     }
                 });
@@ -260,34 +264,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-    //TODO: add to Db takes time, need handle this case:
-    //during adding to db, stop this activity, this also stops.
     private void addBooksToDb(Book[] books) {
         //delete all when swipe (refresh) case
         bookDao.deleteAll();
-        rx.Observable.from(books)
-//                .observeOn(AndroidSchedulers.mainThread())
-                .subscribeOn(Schedulers.newThread())
-                .subscribe(new Subscriber<Book>() {
-                    @Override
-                    public void onCompleted() {
-                        Log.d("MainActivity", "Adding database completed!");
-                    }
-
-                    @Override
-                    public void onError(Throwable e) {
-
-                    }
-
-                    @Override
-                    public void onNext(Book book) {
-                        book.setDate(new Date());
-                        bookDao.insert(book);
-                    }
-                });
-
-
+        bookDao.insertInTx(books);
     }
 
     @Override
